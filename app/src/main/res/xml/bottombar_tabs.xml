@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_inicio"
+        icon="@drawable/ic_inicio"
+        title="Inicio"
+        barColorWhenSelected="#009688"/>
+    <tab
+        id="@+id/tab_leedescubre"
+        icon="@drawable/ic_leedescubre"
+        title="Lee Y Descubre"
+        barColorWhenSelected="#009688"/>
+    <tab
+        id="@+id/tab_galeria"
+        icon="@drawable/ic_galeria"
+        title="Galería "
+        barColorWhenSelected="#009688"/>
+    <tab
+        id="@+id/tab_biblioteca"
+        icon="@drawable/ic_biblioteca"
+        title="Biblioteca"
+        barColorWhenSelected="#009688"/>
+</tabs>

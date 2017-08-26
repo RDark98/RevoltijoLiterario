@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical"
+    android:minHeight="?listPreferredItemHeight"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="0.75">
+
+            <ImageView
+                android:id="@+id/avatarlibro"
+                android:background="@android:mipmap/sym_def_app_icon"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.25">
+
+            <TextView
+                android:id="@+id/namelibro"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:text="Cantos de vida y esperanza"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/deplibro1"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textSize="18dp"
+                android:textColor="#757575"
+                android:text="Ruben Dario"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/deplibro2"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#757575"
+                android:text="1905"
+                android:textSize="18dp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

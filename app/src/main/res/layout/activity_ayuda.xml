@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#61C4A3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0F90F0"
+            android:textSize="25dp"
+            android:text="Objetivo"
+            android:gravity="center"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Revoltijo Literario tiene el objetivo de promover la literatura pinolera, dando a conocer sus grandes exponentes y obras, demostrando así que Nicaragua está plagado de ingenio en cada una de sus letras."
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#61C4A3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0F90F0"
+            android:textSize="25dp"
+            android:text="Enfoque"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Revoltijo Literario está enfocada a estudiantes y docentes, pero útil a un público general, facilitando información de autores y obras nicaragüenses, contribuyendo al enriquecimiento de nuestra cultura e incitando a los usuarios a sumergirse en el hermoso mundo de la literatura."
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#61C4A3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0F90F0"
+            android:textSize="25dp"
+            android:text="Navegación por Revoltijo Literario"
+            android:gravity="center"/>
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="530dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="530dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#61C4A6"
+                            android:textSize="18dp"
+                            android:text="Inicio"
+                            android:gravity="center"
+                            android:layout_margin="3dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:text="En esta opción se visualizan los eventos más importantes de la literatura nicaragüense, además de información de estos como, fecha, lugar, hora, etc."
+                            android:layout_margin="3dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ini"
+                            android:layout_margin="5dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#61C4A6"
+                            android:textSize="18dp"
+                            android:text="Lee y Descubre"
+                            android:gravity="center"
+                            android:layout_margin="3dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:text="En esta opción se presentan por categorización los autores con su biografía, poemas con su análisis y libros con su argumento."
+                            android:layout_margin="3dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lyd"
+                            android:layout_margin="5dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#61C4A6"
+                            android:textSize="18dp"
+                            android:text="Galería"
+                            android:gravity="center"
+                            android:layout_margin="3dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:text="En esta opción se presentan distintas imágenes de autores y acontecimientos importantes de la literatura."
+                            android:layout_margin="3dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/gale"
+                            android:layout_margin="5dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#61C4A6"
+                            android:textSize="18dp"
+                            android:text="Biblioteca"
+                            android:gravity="center"
+                            android:layout_margin="3dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:text="En esta opción se encuentran los archivos pdf con poemas y libros. Con un click se abrirá el archivo seleccionado y al mantener presionado el ítem se mostrará el nombre completo, así como el autor de este."
+                            android:layout_margin="3dp"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bibo"
+                            android:layout_margin="5dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
